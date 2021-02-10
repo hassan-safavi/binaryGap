@@ -3,14 +3,14 @@
 #include <iostream>
 #include <string>
 
-#include <vector>
+#include <vector> 
 using namespace std;
 
     
 int main()
 {
     
-    int a[20], n, i;    
+    int a[20], n, i;    //this program uses C type array
  
 n=1248;    
 int token=0;
