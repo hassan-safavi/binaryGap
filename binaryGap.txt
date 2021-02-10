@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-#include <vector> 
+#include <vector>     //Vector is not used in this program
 using namespace std;
 
     
