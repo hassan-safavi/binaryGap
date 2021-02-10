@@ -1,5 +1,4 @@
 // Example program
-// Example program
 //This program returns the number of zero gaps between ones in a binary string
 #include <iostream>
 #include <string>
