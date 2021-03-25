@@ -1,0 +1,22 @@
+//PassingCars problem with complexity O(N), Codality score = 100 , written by : Sassan Safavi 
+
+int solution(vector<int> &A) {
+    // write your code in C++14 (g++ 6.2.0)
+  int N=A.size(),sum=0, counter =0;
+  for (int i=0 ; i <N;i++) 
+     sum+=A[i];     // sum of the array
+   int i=0;
+   while ( i <N && counter <=1000000000) 
+     { if (A[i]==0)
+        counter+=sum;
+      else
+        sum--;       //remaining sum from current position
+      i++;  
+        }
+        if (counter <=1000000000) 
+          return counter;
+          else 
+          return -1;
+      
+}
+
